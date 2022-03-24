@@ -1,39 +1,102 @@
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Lato:ital,wght@1,300&display=swap');
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'IBM Plex Sans Arabic', 'Lato', sans-serif;
 }
 
 .header{
-    border: 10px solid blue;
+    /* border: 10px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    height: 85px;
+}
+
+.header-div-img1-p{
+    /* border: 10px solid burlywood; */
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-left: 10px;
 }
 
 .header-img1{
-    border: 10px solid blueviolet;
+    /* border: 10px solid blueviolet; */
+    width: 50px;
+    height: 50px;
 }
 
 .header-p{
-    border: 10px solid red;
+    /* border: 10px solid red; */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.span-header{
+    color:red;
 }
 
 .header-ul{
     border: 10px solid gray;
+    display: none;
 }
 
 .header-img2{
     border: 10px solid green;
+    display: none;
+}
+
+.header-img3{
+    /* border: 10px solid yellow; */
+    width: 50px;
+    height: 50px;
 }
 
 .sec1-principal{
-    border: 10px solid purple;
-}
+    /* border: 10px solid purple; */
+    background-image: url(../img/banner-principal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
 
 .sec1-h1{
-    border: 10px solid black;
+    /* border: 10px solid white; */
+    color: white;
+    font-size: 2.4rem;
+    width: 336px;
 }
 
+.sec1-span{
+    color: red;
+}
+
+.sec1-a{
+    color: white;
+    background-color: red;
+    width: 170px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 .main{
     border: 10px solid rgb(72, 32, 180);
 }
