@@ -1,0 +1,107 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    border: 10px solid blue;
+}
+
+.header-img1{
+    border: 10px solid blueviolet;
+}
+
+.header-p{
+    border: 10px solid red;
+}
+
+.header-ul{
+    border: 10px solid gray;
+}
+
+.header-img2{
+    border: 10px solid green;
+}
+
+.sec1-principal{
+    border: 10px solid purple;
+}
+
+.sec1-h1{
+    border: 10px solid black;
+}
+
+.main{
+    border: 10px solid rgb(72, 32, 180);
+}
+
+.sec2-meio{
+    border: 10px solid rgb(86, 161, 0);
+}
+
+.sec2-h2{
+    border: 10px solid brown;
+}
+
+.cards-container{
+    border: 10px solid burlywood;
+}
+
+.cards-container{
+    border: 10px solid skyblue;
+}
+
+.cards{
+    border: 10px solid rgb(145, 54, 96);
+}
+
+.cards-img{
+    border: 10px solid yellow;
+}
+
+.cards-h3{
+    border: 10px solid  pink; 
+}
+
+.cards-h4{
+    border: 10px solid  royalblue; 
+}
+
+.cards-h5{
+    border: 10px solid  bisque; 
+}
+
+.sec3-final{
+    border: 10px solid  rgb(80, 67, 49); 
+}
+
+.sec3-h2{
+    border: 10px solid  aqua;  
+}
+
+.sec3-div-imgs{
+    border: 10px solid  black; 
+}
+
+.sec3-img-categ1{
+    border: 10px solid  blue; 
+}
+
+.sec3-img-categ2{
+    border: 10px solid  plum; 
+}
+
+.footer{
+    border: 10px solid  brown; 
+}
+
+.footer-p{
+    border: 10px solid  greenyellow; 
+}
+
+.footer-imgs{
+    border: 10px solid  peru; 
+}
