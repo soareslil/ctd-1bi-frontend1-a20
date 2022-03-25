@@ -63,6 +63,7 @@
     background-image: url(../img/banner-principal.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 500px;
     margin-right: auto;
     margin-left: auto;
@@ -98,43 +99,81 @@
     font-size: 1.2rem;
 }
 .main{
-    border: 10px solid rgb(72, 32, 180);
+    border: 10px solid rgb(137, 107, 197);
+    background-color: rgba(163, 161, 158, 0.144);
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .sec2-meio{
     border: 10px solid rgb(86, 161, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 .sec2-h2{
     border: 10px solid brown;
+    text-align: center;
+    margin: 20px;
 }
 
 .cards-container{
     border: 10px solid burlywood;
-}
-
-.cards-container{
-    border: 10px solid skyblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards{
-    border: 10px solid rgb(145, 54, 96);
+    border: 5px solid #22222257;
+    background-color: white;
+    height: 380px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+}
+
+.div-imgs-card{
+    /* border: 3px solid black; */
+    display: flex;
+    
 }
 
 .cards-img{
-    border: 10px solid yellow;
+    /* border: 5px solid yellow; */
+    width: 125px;
+
+}
+
+.div-conteudo-card{
+    border-top: 4px solid #22222257;
+    width: 300px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgba(241, 238, 234, 0.199); */
+    border-radius:2px;
 }
 
 .cards-h3{
-    border: 10px solid  pink; 
+    /* border: 10px solid  pink;  */
 }
 
 .cards-h4{
-    border: 10px solid  royalblue; 
+    /* border: 10px solid  royalblue;  */
 }
 
 .cards-h5{
-    border: 10px solid  bisque; 
+    /* border: 10px solid  bisque;  */
 }
 
 .sec3-final{
@@ -142,7 +181,9 @@
 }
 
 .sec3-h2{
-    border: 10px solid  aqua;  
+    border: 10px solid  aqua; 
+    text-align: center;
+    margin: 20px; 
 }
 
 .sec3-div-imgs{
@@ -167,4 +208,17 @@
 
 .footer-imgs{
     border: 10px solid  peru; 
+}
+
+@media (min-width: 1000px){
+
+    .sec1-principal{
+        /* border: 10px solid blue; */
+        background-size: 1280px;
+        margin-right: none;
+        margin-left: none;
+        background-position: cover;
+    }
+
+
 }
