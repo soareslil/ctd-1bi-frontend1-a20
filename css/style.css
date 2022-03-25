@@ -108,19 +108,19 @@
 }
 
 .sec2-meio{
-    border: 10px solid rgb(86, 161, 0);
+    /* border: 10px solid rgb(86, 161, 0); */
     display: flex;
     flex-direction: column;
 }
 
 .sec2-h2{
-    border: 10px solid brown;
+    /* border: 10px solid brown; */
     text-align: center;
     margin: 20px;
 }
 
 .cards-container{
-    border: 10px solid burlywood;
+    /* border: 10px solid burlywood; */
     display: flex;
     flex-direction: column;
 }
@@ -177,29 +177,74 @@
 }
 
 .sec3-final{
-    border: 10px solid  rgb(80, 67, 49); 
+    /* border: 10px solid  rgb(80, 67, 49);  */
 }
 
 .sec3-h2{
-    border: 10px solid  aqua; 
+    /* border: 10px solid  aqua;  */
     text-align: center;
     margin: 20px; 
 }
 
 .sec3-div-imgs{
-    border: 10px solid  black; 
+    /* border: 10px solid  black;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    /* width: 100%; */
+    gap: 10px;
+    height: 500px;
+}
+
+.img-bkg-1{
+    background-image: url('../img/produto-estrela1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 330px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.img-bkg-2{
+    background-image: url('../img/produto-estrela2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 330px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
 }
 
 .sec3-img-categ1{
-    border: 10px solid  blue; 
+    /* border: 10px solid  blue;  */
+    width: 90%;
 }
 
 .sec3-img-categ2{
-    border: 10px solid  plum; 
+    /* border: 10px solid  plum;  */
+    width: 90%;
 }
 
 .footer{
     border: 10px solid  brown; 
+    background-color: #222222;
 }
 
 .footer-p{
