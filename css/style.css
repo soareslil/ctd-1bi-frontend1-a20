@@ -359,6 +359,7 @@
 .footer{
     flex-direction: row;
     justify-content: space-between;
+    height: 200px;
 }
 
 .footer-div-img1-p{
