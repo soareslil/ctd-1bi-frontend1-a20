@@ -340,6 +340,10 @@
         display:none;
     }
 
+    .sec1-h1{
+        width: 100%;
+    }
+
     .sec1-principal{
         /* border: 10px solid blue; */
         background-size: 1280px;
