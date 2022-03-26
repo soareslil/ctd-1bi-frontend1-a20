@@ -99,7 +99,7 @@
     font-size: 1.2rem;
 }
 .main{
-    border: 10px solid rgb(137, 107, 197);
+    /* border: 10px solid rgb(137, 107, 197); */
     background-color: rgba(163, 161, 158, 0.144);
     /* padding: 10px; */
     display: flex;
@@ -164,21 +164,6 @@
     border-radius:2px;
 }
 
-.cards-h3{
-    /* border: 10px solid  pink;  */
-}
-
-.cards-h4{
-    /* border: 10px solid  royalblue;  */
-}
-
-.cards-h5{
-    /* border: 10px solid  bisque;  */
-}
-
-.sec3-final{
-    /* border: 10px solid  rgb(80, 67, 49);  */
-}
 
 .sec3-h2{
     /* border: 10px solid  aqua;  */
@@ -243,18 +228,19 @@
 }
 
 .footer{
-    border: 10px solid  brown; 
+    /* border: 10px solid  brown;  */
     background-color: #222222;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
-    height: 240px;
-    height: 400px;
+    /* height: 400px; */
+    gap: 20px;
+    padding: 60px;
 }
 
 .footer-div-img1-p{
-    border: 10px solid  black; 
+    /* border: 10px solid  black;  */
     display: flex;
     color: white;
     width: 220px;
@@ -262,12 +248,12 @@
 }
 
 .footer-img1{
-    border: 10px solid  blue; 
+    /* border: 10px solid  blue;  */
     width: 90px;
 }
 
 .footer-p{
-    border: 10px solid  greenyellow; 
+    /* border: 10px solid  greenyellow;  */
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -278,21 +264,23 @@
 }
 
 .footer-divpai{
-    border: 10px solid  gray; 
+    /* border: 10px solid  gray;  */
     display: flex;
     color:white;
     flex-direction: column;
-    width: 220px;
+    width: 100%;
+    gap: 30px;
 }
 
 .div-footer-p{
-    border: 10px solid white;
+    /* border: 10px solid white; */
     display: flex;
     justify-content: center;
+    font-size: 2.3rem;
 }
 
 .footer-div-imgs{
-    border: 10px solid  purple;
+    /* border: 10px solid  purple; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -303,8 +291,9 @@
 }
 
 .footer-imgs{
-    border: 10px solid  peru; 
-    width: 30px;
+    /* border: 10px solid  peru;  */
+    width: 50px;
+    height: 40px;
 }
 
 @media (min-width: 1000px){
