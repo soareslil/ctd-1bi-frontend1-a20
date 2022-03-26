@@ -351,6 +351,9 @@
         margin-left: none;
         background-position: cover;
     }
-
+.cards-container{
+    flex-direction: row;
+    justify-content: center;
+}
 
 }
