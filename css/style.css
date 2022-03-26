@@ -298,6 +298,48 @@
 
 @media (min-width: 1000px){
 
+    .header-div-img1-p{
+        display: flex;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .header-div-ul-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .header-ul{
+        display: flex;
+        color: white;
+        list-style: none;
+        flex-direction: row;
+        border: none;
+        gap: 20px;
+    }
+
+    .header-ul div{
+        padding: 0px 30px 0px 30px;
+    }
+
+    .div-hd-img2{
+        /* border: 20px solid; */
+        padding: 0px 5px 0px 20px;
+    }
+
+    .header-img2{
+        display: block;
+        width: 60px;
+        height: 30px;
+        border: none;
+    }
+
+    .header-img3{
+        display:none;
+    }
+
     .sec1-principal{
         /* border: 10px solid blue; */
         background-size: 1280px;
