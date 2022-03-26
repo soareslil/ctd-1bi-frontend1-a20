@@ -356,4 +356,11 @@
     justify-content: center;
 }
 
+.sec3-div-imgs{
+    flex-direction: row;
+    justify-content: center;
+    gap: 115px;
+    height: 315px;
+}
+
 }
