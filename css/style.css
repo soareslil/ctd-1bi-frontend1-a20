@@ -344,13 +344,6 @@
         width: 100%;
     }
 
-    .sec1-principal{
-        /* border: 10px solid blue; */
-        background-size: 1280px;
-        margin-right: none;
-        margin-left: none;
-        background-position: cover;
-    }
 .cards-container{
     flex-direction: row;
     justify-content: center;
@@ -361,6 +354,24 @@
     justify-content: center;
     gap: 115px;
     height: 315px;
+}
+
+.footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-div-img1-p{
+gap: 30px;
+
+}
+
+.footer-p{
+    font-size: 2.4rem;
+}
+
+.footer-divpai{
+    width: 300px;
 }
 
 }
