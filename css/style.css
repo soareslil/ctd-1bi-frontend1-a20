@@ -45,18 +45,11 @@
 }
 
 .header-ul{
-    border: 10px solid gray;
+    /* border: 10px solid gray; */
     display: none;
     cursor:pointer;
 }
 
-.header-ul li:hover{
-border: 1px solid white;
-border-radius: 3px;
-animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-width: 90px;
-text-align: center;
-}
 
 .header-img2{
     border: 10px solid green;
@@ -345,8 +338,19 @@ text-align: center;
         gap: 20px;
     }
 
+
     .header-ul div{
         padding: 0px 30px 0px 30px;
+    }
+
+    
+    .header-ul li:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    width: 90px;
+    text-align: center;
+    align-self: center;
     }
 
     .div-hd-img2{
